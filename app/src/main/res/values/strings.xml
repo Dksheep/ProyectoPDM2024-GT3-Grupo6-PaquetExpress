@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PaquetExpress</string>
+    <string name="open_nav">Abrir Barra de navegacion</string>
+    <string name="close_nav">Cerrar Barra de navegacion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
