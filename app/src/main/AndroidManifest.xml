@@ -17,7 +17,42 @@
             android:exported="false" />
         <activity
             android:name=".AdminRepartidores"
-            android:exported="false" />
+            android:exported="true" />
+        <activity
+            android:name=".Ayuda"
+            android:exported="true" />
+        <activity
+            android:name=".EnvioAsignados"
+            android:exported="true" />
+        <activity
+            android:name=".EnvioConfirmados"
+            android:exported="true" />
+        <activity
+            android:name=".EnvioPendientes"
+            android:exported="true" />
+        <activity
+            android:name="EnvioRastreo"
+            android:exported="true" />
+        <activity
+            android:name="EnvioRealizados"
+            android:exported="true" />
+        <activity
+            android:name="HistorialPaquetes"
+            android:exported="true" />
+        <activity
+            android:name=".EnvioDetalles"
+            android:exported="true" />
+        <activity
+            android:name=".Politicas"
+            android:exported="true" />
+        <activity
+            android:name=".PreguntasFrecuentes"
+            android:exported="true" />
+        <activity
+            android:name=".MenuAdm"
+            android:exported="false"
+            />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

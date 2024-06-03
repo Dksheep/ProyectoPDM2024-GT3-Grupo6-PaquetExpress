@@ -130,6 +130,7 @@
         android:layout_width="106dp"
         android:layout_height="49dp"
         android:text="Salir"
+        android:onClick="salirAqui"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
