@@ -6,30 +6,17 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btnAyuda1"
+        android:id="@+id/btnSeguimiento1"
         android:layout_width="192dp"
         android:layout_height="55dp"
-        android:text="Ayuda y Soporte"
+        android:text="Seguimiento"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSeguimiento1"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/btnCuenta1"
-        android:layout_width="192dp"
-        android:layout_height="55dp"
-        android:text="Mi cuenta"
-        android:textSize="15sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAyuda1"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
 
     <Button
         android:id="@+id/btnEnvios1"
@@ -45,29 +32,17 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/btnSeguimiento1"
+        android:id="@+id/btnAyuda1"
         android:layout_width="192dp"
         android:layout_height="55dp"
-        android:text="Seguimiento"
+        android:text="Ayuda y Soporte"
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.419" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="249dp"
-        android:layout_height="172dp"
-        android:src="@drawable/logopaquetexpress"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.081" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSeguimiento1"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnConfig1"
@@ -82,6 +57,31 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
+        android:id="@+id/btnCuenta1"
+        android:layout_width="192dp"
+        android:layout_height="55dp"
+        android:text="Mi cuenta"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAyuda1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="249dp"
+        android:layout_height="172dp"
+        android:src="@drawable/logopaquetexpress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <Button
         android:id="@+id/btnSalirfh"
         android:layout_width="100dp"
         android:layout_height="50dp"
@@ -91,8 +91,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnConfig1"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdministrador13"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnAdministrador13"
+        android:layout_width="187dp"
+        android:layout_height="56dp"
+        android:text="Administrador"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConfig1"
+        app:layout_constraintVertical_bias="0.093" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

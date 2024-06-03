@@ -14,21 +14,106 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.097" />
+        app:layout_constraintVertical_bias="0.106" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="356dp"
-        android:layout_height="232dp"
+        android:layout_width="343dp"
+        android:layout_height="205dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.032"
+        app:layout_constraintVertical_bias="0.059"
         app:srcCompat="@drawable/deapa_rectangulo_gris_1_650x367" />
+
+    <TextView
+        android:id="@+id/txtHoraSop5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.747"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHoraSop4"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="334dp"
+        android:layout_height="190dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/deapa_rectangulo_gris_1_650x367" />
+
+    <TextView
+        android:id="@+id/txtTelSup2"
+        android:layout_width="107dp"
+        android:layout_height="18dp"
+        android:text="2220-XXXX"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <TextView
+        android:id="@+id/txtHoraSop3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabado - Domingo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtHoraSop2"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/txtDias2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sabado - Domingo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDias1"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/txtHoraSop4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08:00 - 17:00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toEndOf="@+id/txtHoraSop2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <TextView
+        android:id="@+id/txtHora2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toEndOf="@+id/txtDias2"
+        app:layout_constraintTop_toBottomOf="@+id/txtHora1"
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/txtTituloAyuda1"
@@ -99,34 +184,10 @@
         android:text="08:00 - 17:00"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintHorizontal_bias="0.358"
         app:layout_constraintStart_toEndOf="@+id/txtDias1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.179" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="354dp"
-        android:layout_height="233dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.064"
-        app:srcCompat="@drawable/deapa_rectangulo_gris_1_650x367" />
-
-    <TextView
-        android:id="@+id/txtHoraSop4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="08:00 - 17:00"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toEndOf="@+id/txtHoraSop2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543" />
+        app:layout_constraintVertical_bias="0.178" />
 
     <TextView
         android:id="@+id/txtHoraSop2"
@@ -135,22 +196,10 @@
         android:text="Lunes - Viernes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintHorizontal_bias="0.417"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543" />
-
-    <TextView
-        android:id="@+id/txtHoraSop5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cerrado"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.814"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtHoraSop4"
-        app:layout_constraintVertical_bias="0.049" />
+        app:layout_constraintVertical_bias="0.473" />
 
     <TextView
         android:id="@+id/txtSuporte1"
@@ -161,22 +210,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.438" />
-
-    <TextView
-        android:id="@+id/txtTelSup2"
-        android:layout_width="107dp"
-        android:layout_height="18dp"
-        android:text="2220-XXXX"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.434"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.496" />
+        app:layout_constraintVertical_bias="0.368" />
 
     <TextView
         android:id="@+id/txtHoraSup1"
@@ -202,42 +239,6 @@
         app:layout_constraintTop_toBottomOf="@+id/txtSuporte1"
         app:layout_constraintVertical_bias="0.055" />
 
-    <TextView
-        android:id="@+id/txtHoraSop3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sabado - Domingo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.445"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtHoraSop2"
-        app:layout_constraintVertical_bias="0.049" />
-
-    <TextView
-        android:id="@+id/txtDias2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sabado - Domingo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtDias1"
-        app:layout_constraintVertical_bias="0.024" />
-
-    <TextView
-        android:id="@+id/txtHora2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cerrado"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
-        app:layout_constraintStart_toEndOf="@+id/txtDias2"
-        app:layout_constraintTop_toBottomOf="@+id/txtHora1"
-        app:layout_constraintVertical_bias="0.023" />
-
     <Button
         android:id="@+id/btnPreguntas1"
         android:layout_width="317dp"
@@ -247,9 +248,10 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.423" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTerminos1"
+        app:layout_constraintVertical_bias="0.045" />
 
     <Button
         android:id="@+id/btnPoliticas1"
@@ -259,8 +261,9 @@
         android:text="Politicas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPreguntas1"
-        app:layout_constraintVertical_bias="0.267" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

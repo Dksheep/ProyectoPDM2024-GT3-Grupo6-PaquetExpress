@@ -20,16 +20,24 @@ class MenuAdm: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_adm)
 
-//      val btnRepartidor=findViewById<Button>(R.id.btnAdmRep1)
-//        btnRepartidor.setOnClickListener {
-//            val intent = Intent(this, AdminRepartidores::class.java)
-//            startActivity(intent)
-//        }
+        //boton de repartidores
+        //Declaración de variables de la vista
+        val reparti=findViewById<Button>(R.id.btnAdmRep1)
+
+        // para conocer a que vista se va dirigir el boton
+        reparti.setOnClickListener {
+            val intent = Intent(this, AdminRepartidores::class.java)
+            startActivity(intent)
+        }
+
+        //boton de adm.usuarios
         val btnAdmUsuarios=findViewById<Button>(R.id.btnAdmUsuarios1)
         btnAdmUsuarios.setOnClickListener {
             val intent = Intent(this, UsuarioAdm::class.java)
             startActivity(intent)
         }
+
+
 
     }
     fun envioDetalle(view: View){

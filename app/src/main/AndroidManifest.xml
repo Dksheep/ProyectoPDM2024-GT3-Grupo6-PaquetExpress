@@ -55,6 +55,12 @@
             android:name=".DashboardRepartidor"
             android:exported="true" />
         <activity
+            android:name=".UsuarioPerfil"
+            android:exported="true" />
+        <activity
+            android:name=".PerfilRepartidor"
+            android:exported="true" />
+        <activity
             android:name=".Politicas"
             android:exported="true" />
         <activity
