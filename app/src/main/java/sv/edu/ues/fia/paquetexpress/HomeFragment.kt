@@ -16,9 +16,6 @@ class HomeFragment : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_home)
 
-
-
-
     }
 
 
