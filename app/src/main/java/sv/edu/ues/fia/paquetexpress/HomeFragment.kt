@@ -18,6 +18,7 @@ class HomeFragment : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_home)
 
+        //Declaración de variables de la vista
         val btnSalir=findViewById<Button>(R.id.btnSalirfh)
 
         btnSalir.setOnClickListener {
