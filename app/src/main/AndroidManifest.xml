@@ -67,7 +67,10 @@
             android:name=".MenuAdm"
             android:exported="false"
             />
-
+        <activity
+            android:name=".Salir"
+            android:exported="false"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true"

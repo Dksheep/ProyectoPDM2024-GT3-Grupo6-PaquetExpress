@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         val emailField = findViewById<EditText>(R.id.txtMail1)
         val passwordFiel = findViewById<EditText>(R.id.txtClave1)
 
+        //Validacion de los campos de login
         btnLogin.setOnClickListener{
             val email = emailField.text.toString().trim()
             val password = passwordFiel.text.toString().trim()

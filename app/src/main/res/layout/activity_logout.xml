@@ -23,20 +23,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Si"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtCerrar1"
-        app:layout_constraintVertical_bias="0.368" />
+        app:layout_constraintEnd_toStartOf="@+id/btnCancelar1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread" />
 
     <Button
         android:id="@+id/btnCancelar1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="No"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintTop_toBottomOf="@+id/txtCerrar1"
         app:layout_constraintStart_toEndOf="@+id/btnAceptar1"
-        tools:layout_editor_absoluteY="384dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
