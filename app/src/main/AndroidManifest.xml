@@ -25,6 +25,9 @@
             android:name=".EnvioAsignados"
             android:exported="true" />
         <activity
+            android:name=".UsuarioAdm"
+            android:exported="true" />
+        <activity
             android:name=".EnvioConfirmados"
             android:exported="true" />
         <activity
@@ -37,16 +40,28 @@
             android:name="EnvioRealizados"
             android:exported="true" />
         <activity
+            android:name=".HomeFragment"
+            android:exported="true" />
+        <activity
             android:name="HistorialPaquetes"
             android:exported="true" />
         <activity
             android:name=".EnvioDetalles"
             android:exported="true" />
         <activity
+            android:name=".Seguimiento"
+            android:exported="true" />
+        <activity
+            android:name=".DashboardRepartidor"
+            android:exported="true" />
+        <activity
             android:name=".Politicas"
             android:exported="true" />
         <activity
-            android:name=".PreguntasFrecuentes"
+            android:name=".Terminos"
+            android:exported="true" />
+        <activity
+            android:name="PreguntasFrecuentes"
             android:exported="true" />
         <activity
             android:name=".MenuAdm"

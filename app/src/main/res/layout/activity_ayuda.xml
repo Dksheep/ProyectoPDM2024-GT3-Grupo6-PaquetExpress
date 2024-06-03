@@ -5,6 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/btnTerminos1"
+        android:layout_width="317dp"
+        android:layout_height="50dp"
+        android:onClick="abrirTerminos"
+        android:text="Terminos y condiciones"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintVertical_bias="0.097" />
+
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="356dp"
@@ -229,35 +242,25 @@
         android:id="@+id/btnPreguntas1"
         android:layout_width="317dp"
         android:layout_height="50dp"
-        android:text="Preguntas Frecuentes"
         android:onClick="abrirPreguntas"
+        android:text="Preguntas Frecuentes"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.065" />
+        app:layout_constraintVertical_bias="0.423" />
 
     <Button
         android:id="@+id/btnPoliticas1"
         android:layout_width="317dp"
         android:layout_height="50dp"
-        android:text="Politicas"
         android:onClick="abrirPoliticas"
+        android:text="Politicas"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPreguntas1"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/btnTerminos1"
-        android:layout_width="317dp"
-        android:layout_height="50dp"
-        android:text="Terminos y condiciones"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="609dp" />
+        app:layout_constraintVertical_bias="0.267" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

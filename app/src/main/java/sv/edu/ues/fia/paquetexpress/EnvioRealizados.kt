@@ -11,19 +11,5 @@ class EnvioRealizados : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_envios_realizados)
 
-
-        /*   val button=findViewById<Button>(R.id.btnPoliticas1)
-           //val button=findViewById<Button>(R.id.btnPreguntas1)
-
-           button.setOnClickListener{
-               val intent = Intent(this, Politicas::class.java)
-               startActivity(intent)
-           }*/
-
-
     }
-
-
-
-
 }

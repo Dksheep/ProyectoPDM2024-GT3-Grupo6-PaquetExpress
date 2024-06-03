@@ -20,12 +20,16 @@ class MenuAdm: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu_adm)
 
-      /*  val button=findViewById<Button>(R.id.btnAdmRep1)
-        button.setOnClickListener {
-            val intent = Intent(this, AdminRepartidores::class.java)
+//      val btnRepartidor=findViewById<Button>(R.id.btnAdmRep1)
+//        btnRepartidor.setOnClickListener {
+//            val intent = Intent(this, AdminRepartidores::class.java)
+//            startActivity(intent)
+//        }
+        val btnAdmUsuarios=findViewById<Button>(R.id.btnAdmUsuarios1)
+        btnAdmUsuarios.setOnClickListener {
+            val intent = Intent(this, UsuarioAdm::class.java)
             startActivity(intent)
         }
-*/
 
     }
     fun envioDetalle(view: View){
@@ -54,6 +58,10 @@ class MenuAdm: AppCompatActivity() {
         startActivity(intent)
     }
 
+    fun usuarioAdm(view: View){
+        val intent= Intent(this, UsuarioAdm::class.java).apply{}
+        startActivity(intent)
+    }
     fun envioAsignados(view: View){
         val intent= Intent(this, EnvioAsignados::class.java).apply{}
         startActivity(intent)

@@ -20,6 +20,21 @@ class Ayuda : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ayuda)
 
+        val buttonn=findViewById<Button>(R.id.btnPreguntas1)
+
+        buttonn.setOnClickListener{
+            val intent = Intent(this, PreguntasFrecuentes::class.java)
+            startActivity(intent)
+        }
+
+        val terminos = findViewById<Button>(R.id.btnTerminos1)
+
+        terminos.setOnClickListener {
+
+            val intent = Intent(this, Terminos::class.java)
+
+            startActivity(intent)
+        }
 
         val button=findViewById<Button>(R.id.btnPoliticas1)
         //val button=findViewById<Button>(R.id.btnPreguntas1)
@@ -28,14 +43,5 @@ class Ayuda : AppCompatActivity() {
             val intent = Intent(this, Politicas::class.java)
             startActivity(intent)
         }
-
-
     }
-
-    fun abrirPoliticas(view: View){
-        val intent=Intent(this, PreguntasFrecuentes::class.java).apply{}
-        startActivity(intent)
-    }
-
-
 }

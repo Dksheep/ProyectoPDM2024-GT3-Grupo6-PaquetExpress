@@ -6,45 +6,6 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/btnAsignados"
-        android:layout_width="200dp"
-        android:layout_height="55dp"
-        android:onClick="envioAsignados"
-        android:text="Envios Asignados"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/admEnviosPend1"
-        app:layout_constraintVertical_bias="0.885" />
-
-    <Button
-        android:id="@+id/btnDetalle"
-        android:layout_width="200dp"
-        android:layout_height="55dp"
-        android:onClick="envioDetalle"
-        android:text="Envios Detalle"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/admEnviosPend1"
-        app:layout_constraintVertical_bias="0.54" />
-
-    <Button
-        android:id="@+id/btnHistPaq"
-        android:layout_width="200dp"
-        android:layout_height="55dp"
-        android:onClick="historialPaquete"
-        android:text="Historial Paquete"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/admEnviosPend1"
-        app:layout_constraintVertical_bias="0.701" />
-
-    <Button
         android:id="@+id/btnEnviosRealizado"
         android:layout_width="200dp"
         android:layout_height="55dp"
@@ -52,23 +13,10 @@
         android:text="Envios Realizados"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/admEnviosPend1"
-        app:layout_constraintVertical_bias="0.171" />
-
-    <Button
-        android:id="@+id/btnEnviosConfir"
-        android:layout_width="200dp"
-        android:layout_height="55dp"
-        android:onClick="envioConfir"
-        android:text="Envios Confirmacion"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/admEnviosPend1"
-        app:layout_constraintVertical_bias="0.355" />
+        app:layout_constraintVertical_bias="0.247" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -76,50 +24,33 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.445"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.084"
+        app:layout_constraintVertical_bias="0.067"
         app:srcCompat="@drawable/logopaquetexpress" />
 
     <Button
         android:id="@+id/btnAdmRep1"
         android:layout_width="199dp"
         android:layout_height="55dp"
-        android:text="Adm. Repartidores"
         android:onClick="abrirRepartidor"
+        android:text="Adm. Repartidores"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/admEnviosPend1"
         app:layout_constraintTop_toBottomOf="@+id/btnAdmUsuarios1"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.117" />
 
     <Button
         android:id="@+id/admEnviosPend1"
         android:layout_width="200dp"
         android:layout_height="55dp"
-        android:text="Envios Pendientes"
         android:onClick="envioPendiente"
+        android:text="Envios Pendientes"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnEnviosRealizado"
         app:layout_constraintTop_toBottomOf="@+id/btnAdmRep1"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <Button
-        android:id="@+id/admEnviosRastreo"
-        android:layout_width="200dp"
-        android:layout_height="55dp"
-        android:text="Envios Rastreo"
-        android:onClick="envioRastreo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnAdmRep1"
-        app:layout_constraintVertical_bias="0.164" />
+        app:layout_constraintVertical_bias="0.151" />
 
     <Button
         android:id="@+id/btnAdmUsuarios1"
@@ -127,9 +58,7 @@
         android:layout_height="55dp"
         android:text="Adm. Usuarios"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnAdmRep1"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.315" />
+        app:layout_constraintVertical_bias="0.337" />
 </androidx.constraintlayout.widget.ConstraintLayout>

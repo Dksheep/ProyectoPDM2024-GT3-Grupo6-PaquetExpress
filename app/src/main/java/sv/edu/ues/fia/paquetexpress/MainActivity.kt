@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.btnLogin1)
         button.setOnClickListener {
-            val intent = Intent(this, MenuAdm::class.java)
+            val intent = Intent(this, HomeFragment::class.java)
             startActivity(intent)
         }
 
