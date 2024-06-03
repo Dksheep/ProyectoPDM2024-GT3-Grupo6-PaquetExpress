@@ -18,8 +18,8 @@ class HomeFragment : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_home)
 
-
         val btnSalir=findViewById<Button>(R.id.btnSalirfh)
+
         btnSalir.setOnClickListener {
             val intent = Intent(this, Salir::class.java)
             startActivity(intent)
