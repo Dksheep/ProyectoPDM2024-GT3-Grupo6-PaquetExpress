@@ -11,6 +11,7 @@
         android:layout_height="54dp"
         android:text="Tu orden ha sido ingresada correctamente, estamos preparando tu pedido con codigo #121233."
         android:textAlignment="center"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -14,10 +14,35 @@
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.276"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintVertical_bias="0.105" />
+
+    <Button
+        android:id="@+id/btnPoliticas1"
+        android:layout_width="317dp"
+        android:layout_height="50dp"
+        android:onClick="abrirPoliticas"
+        android:text="Politicas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPreguntas1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnPreguntas1"
+        android:layout_width="317dp"
+        android:layout_height="50dp"
+        android:onClick="abrirPreguntas"
+        android:text="Preguntas Frecuentes"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTerminos1"
+        app:layout_constraintVertical_bias="0.044" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -238,32 +263,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtSuporte1"
         app:layout_constraintVertical_bias="0.055" />
-
-    <Button
-        android:id="@+id/btnPreguntas1"
-        android:layout_width="317dp"
-        android:layout_height="50dp"
-        android:onClick="abrirPreguntas"
-        android:text="Preguntas Frecuentes"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.276"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnTerminos1"
-        app:layout_constraintVertical_bias="0.045" />
-
-    <Button
-        android:id="@+id/btnPoliticas1"
-        android:layout_width="317dp"
-        android:layout_height="50dp"
-        android:onClick="abrirPoliticas"
-        android:text="Politicas"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.287"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnPreguntas1"
-        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

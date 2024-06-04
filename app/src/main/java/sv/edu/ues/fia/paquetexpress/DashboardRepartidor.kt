@@ -36,13 +36,23 @@ class DashboardRepartidor : AppCompatActivity() {
             startActivity(intent)
         }
 
+//boton de volver
+        //Declaración de variables de la vista
+        val  volver=findViewById<Button>(R.id.button4)
+
+        // para conocer a que vista se va dirigir el boton
+        volver.setOnClickListener {
+            val intent = Intent(this, HomeFragment::class.java)
+            startActivity(intent)
+        }
 
 
     }
-   fun salirAqui(view: View){
-      val intent= Intent(this, HomeFragment::class.java).apply{}
-       startActivity(intent)
-    }
+
+  // fun salirAqui(view: View){
+   //   val intent= Intent(this, HomeFragment::class.java).apply{}
+     //  startActivity(intent)
+    //}
 
 
 }
