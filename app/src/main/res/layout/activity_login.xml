@@ -30,8 +30,8 @@
 
     <EditText
         android:id="@+id/txtMail1"
-        android:layout_width="245dp"
-        android:layout_height="45dp"
+        android:layout_width="327dp"
+        android:layout_height="74dp"
         android:ems="10"
         android:hint="ejemplo@mail.com"
         android:inputType="textEmailAddress"
@@ -44,8 +44,8 @@
 
     <EditText
         android:id="@+id/txtClave1"
-        android:layout_width="245dp"
-        android:layout_height="45dp"
+        android:layout_width="334dp"
+        android:layout_height="74dp"
         android:ems="10"
         android:hint="contraseña"
         android:inputType="textPassword"

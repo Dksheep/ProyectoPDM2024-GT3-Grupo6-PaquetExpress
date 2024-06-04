@@ -17,7 +17,7 @@ class EnvioDetalles: AppCompatActivity() {
     }
 
     fun salirAqui(view: View){
-        val intent= Intent(this, MenuAdm::class.java).apply{}
+        val intent= Intent(this, HomeFragment::class.java).apply{}
         startActivity(intent)
     }
 

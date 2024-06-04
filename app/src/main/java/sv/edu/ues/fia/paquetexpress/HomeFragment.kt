@@ -82,7 +82,15 @@ class HomeFragment : AppCompatActivity() {
             val intent = Intent(this, MenuAdm::class.java)
             startActivity(intent)
         }
+        //boton salir
+        //Declaración de variables de la vista
+        val btnlogout=findViewById<Button>(R.id.btnSalirfh)
 
+        // para conocer a que vista se va dirigir el boton
+        btnlogout.setOnClickListener {
+            val intent = Intent(this, Salir::class.java)
+            startActivity(intent)
+        }
 
     }
 

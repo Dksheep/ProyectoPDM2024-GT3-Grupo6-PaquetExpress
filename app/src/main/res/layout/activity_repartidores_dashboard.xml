@@ -19,8 +19,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="185dp"
-        android:layout_height="45dp"
+        android:layout_width="222dp"
+        android:layout_height="65dp"
         android:text="Envios Asignados"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,8 +30,8 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="185dp"
-        android:layout_height="45dp"
+        android:layout_width="222dp"
+        android:layout_height="65dp"
         android:text="Perfil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

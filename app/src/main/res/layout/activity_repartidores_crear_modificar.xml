@@ -58,8 +58,9 @@
     <EditText
         android:id="@+id/txtNomRep1"
         android:layout_width="372dp"
-        android:layout_height="41dp"
+        android:layout_height="50dp"
         android:ems="10"
+        android:hint="Carlos Alfonso"
         android:inputType="text"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -111,9 +112,10 @@
 
     <EditText
         android:id="@+id/txtCarRep1"
-        android:layout_width="372dp"
-        android:layout_height="41dp"
+        android:layout_width="371dp"
+        android:layout_height="71dp"
         android:ems="10"
+        android:hint="Transporte"
         android:inputType="text"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -138,8 +140,9 @@
     <EditText
         android:id="@+id/txtDirRep1"
         android:layout_width="372dp"
-        android:layout_height="41dp"
+        android:layout_height="52dp"
         android:ems="10"
+        android:hint="Colonia zacamil"
         android:inputType="text"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -164,8 +167,8 @@
 
     <EditText
         android:id="@+id/txtTelRep1"
-        android:layout_width="372dp"
-        android:layout_height="42dp"
+        android:layout_width="377dp"
+        android:layout_height="53dp"
         android:ems="10"
         android:hint="1212-1212"
         android:inputType="text"
@@ -192,8 +195,9 @@
     <EditText
         android:id="@+id/txtApeRep1"
         android:layout_width="372dp"
-        android:layout_height="41dp"
+        android:layout_height="50dp"
         android:ems="10"
+        android:hint="Aguilar Ramos"
         android:inputType="text"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"

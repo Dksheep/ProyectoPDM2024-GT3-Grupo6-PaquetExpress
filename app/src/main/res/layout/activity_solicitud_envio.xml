@@ -57,9 +57,10 @@
 
     <EditText
         android:id="@+id/edtNomSol1"
-        android:layout_width="372dp"
-        android:layout_height="41dp"
+        android:layout_width="380dp"
+        android:layout_height="52dp"
         android:ems="10"
+        android:hint="Carlos Andres"
         android:inputType="text"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -111,9 +112,10 @@
 
     <EditText
         android:id="@+id/edtDepartEnvio1"
-        android:layout_width="372dp"
-        android:layout_height="41dp"
+        android:layout_width="390dp"
+        android:layout_height="54dp"
         android:ems="10"
+        android:hint="San Salvador"
         android:inputType="text"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -137,9 +139,10 @@
 
     <EditText
         android:id="@+id/edtDirEnvio1"
-        android:layout_width="372dp"
-        android:layout_height="41dp"
+        android:layout_width="380dp"
+        android:layout_height="52dp"
         android:ems="10"
+        android:hint="Colonia Costa Rica"
         android:inputType="text"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -164,8 +167,8 @@
 
     <EditText
         android:id="@+id/edtTelEnvio1"
-        android:layout_width="372dp"
-        android:layout_height="42dp"
+        android:layout_width="387dp"
+        android:layout_height="52dp"
         android:ems="10"
         android:hint="1212-1212"
         android:inputType="text"
@@ -191,9 +194,10 @@
 
     <EditText
         android:id="@+id/edtApeEnvio1"
-        android:layout_width="372dp"
-        android:layout_height="41dp"
+        android:layout_width="380dp"
+        android:layout_height="52dp"
         android:ems="10"
+        android:hint="Figuerroa Gutierres"
         android:inputType="text"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
