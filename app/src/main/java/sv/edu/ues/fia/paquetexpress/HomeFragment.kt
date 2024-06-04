@@ -68,7 +68,7 @@ class HomeFragment : AppCompatActivity() {
 
         // para conocer a que vista se va dirigir el boton
         btnconfiguracion.setOnClickListener {
-            val intent = Intent(this, EnvioDetalles::class.java)
+            val intent = Intent(this, UsuarioCrearModificar::class.java)
             startActivity(intent)
         }
 
@@ -85,8 +85,6 @@ class HomeFragment : AppCompatActivity() {
 
 
     }
-
-
 
 
 }

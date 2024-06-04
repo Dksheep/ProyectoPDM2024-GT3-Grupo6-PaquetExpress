@@ -14,9 +14,6 @@ class EnvioDetalles: AppCompatActivity() {
         setContentView(R.layout.activity_envios_detalles)
 
 
-
-
-
     }
 
     fun salirAqui(view: View){

@@ -2,6 +2,7 @@ package sv.edu.ues.fia.paquetexpress
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
@@ -37,8 +38,11 @@ class DashboardRepartidor : AppCompatActivity() {
 
 
 
-
-
     }
+   fun salirAqui(view: View){
+      val intent= Intent(this, HomeFragment::class.java).apply{}
+       startActivity(intent)
+    }
+
 
 }

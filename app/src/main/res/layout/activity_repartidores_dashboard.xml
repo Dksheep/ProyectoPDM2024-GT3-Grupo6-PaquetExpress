@@ -24,10 +24,9 @@
         android:text="Envios Asignados"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:layout_constraintVertical_bias="0.196" />
+        app:layout_constraintVertical_bias="0.24" />
 
     <Button
         android:id="@+id/button3"
@@ -36,10 +35,9 @@
         android:text="Perfil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.042" />
+        app:layout_constraintVertical_bias="0.043" />
 
     <Button
         android:id="@+id/button4"

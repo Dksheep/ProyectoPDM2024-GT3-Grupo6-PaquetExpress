@@ -34,6 +34,17 @@ class AdminRepartidores : AppCompatActivity(), NavigationView.OnNavigationItemSe
 //            navigationView.setCheckedItem(R.id.nav_home)
 //        }
 
+        val agregarRepartidor = findViewById<Button>(R.id.btnAgregar1)
+
+        agregarRepartidor.setOnClickListener {
+
+            val intent = Intent(this, RepartidorCrearModificar::class.java)
+
+            startActivity(intent)
+        }
+
+
+
     }
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {

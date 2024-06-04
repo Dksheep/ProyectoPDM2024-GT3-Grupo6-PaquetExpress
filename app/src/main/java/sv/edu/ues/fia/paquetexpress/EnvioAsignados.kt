@@ -23,6 +23,17 @@ class EnvioAsignados : AppCompatActivity() {
             startActivity(intent)
         }*/
 
+        //boton de envios asignador
+        //Declaración de variables de la vista
+        val btnrastreo=findViewById<Button>(R.id.btnRastreoEnvio)
+
+        // para conocer a que vista se va dirigir el boton
+        btnrastreo.setOnClickListener {
+            val intent = Intent(this, EnvioRastreo::class.java)
+            startActivity(intent)
+        }
+
+
 
     }
 

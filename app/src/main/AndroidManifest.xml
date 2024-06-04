@@ -70,6 +70,13 @@
             android:name="PreguntasFrecuentes"
             android:exported="true" />
         <activity
+            android:name=".RepartidorCrearModificar"
+            android:exported="true" />
+
+        <activity
+            android:name=".UsuarioCrearModificar"
+            android:exported="true" />
+        <activity
             android:name=".MenuAdm"
             android:exported="false"
             />
